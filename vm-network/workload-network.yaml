@@ -6,7 +6,7 @@ metadata:
     network.harvesterhci.io/ready: "true"
     network.harvesterhci.io/type: L2VlanNetwork
     network.harvesterhci.io/vlan-id: "1"
-  name: workload
+  name: vlan1
   namespace: default
 spec:
   config: '{"cniVersion":"0.3.1","name":"workload","type":"bridge","bridge":"mgmt-br","promiscMode":true,"vlan":1,"ipam":{}}'
