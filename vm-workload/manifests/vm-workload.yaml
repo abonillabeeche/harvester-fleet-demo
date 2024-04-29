@@ -51,7 +51,7 @@ spec:
   template:
     metadata:
       annotations:
-        harvesterhci.io/sshNames: '["default/vm-workload-keys"]'
+        harvesterhci.io/sshNames: '["default/abonilla"]'
       labels:
         harvesterhci.io/vmName: opensuse-vm
     spec:
